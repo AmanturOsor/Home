@@ -1,0 +1,47 @@
+.square {
+     background-color: blue;
+     width: 40px;
+     height: 40px;
+     padding: 10px; /* Внутренние отступы 10px со всех сторон */
+     margin: 20px; /* Внешние отступы 20px со всех сторон */
+     font-size: 13px;
+     color: white;
+     line-height: 30px;
+}
+
+.rectangle {
+     background-color: brown;
+     width: 60px;
+     height: 30px;
+     padding: 10px; /* Внутренние отступы 10px со всех сторон */
+     margin: 20px; /* Внешние отступы 20px со всех сторон */
+     font-size: 10px;
+     color: rgb(30, 210, 66);
+     line-height: 30px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #ff0000; 
+    border-radius: 50%; 
+    padding: 10px; /* Внутренние отступы 10px со всех сторон */
+    margin: 20px; /* Внешние отступы 20px со всех сторон */
+    font-size: 18px;
+    color: rgb(5, 34, 96);
+    text-align: center;
+    line-height: 50px;
+}
+
+.oval {
+    width: 75px; /* Ширина овала */
+    height: 30px; /* Высота овала */
+    background-color: burlywood; /* Цвет фона (можете выбрать свой цвет) */
+    border-radius: 100% / 100%; /* Горизонтальный и вертикальный радиусы (50% и 25%) */
+    padding: 10px; /* Внутренние отступы 10px со всех сторон */
+    margin: 20px; /* Внешние отступы 20px со всех сторон */
+    font-size: 20px;
+    color: rgb(235, 235, 14);
+    text-align: center;
+    line-height: 30px;
+} 
